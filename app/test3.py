@@ -45,5 +45,33 @@ oChild6.append(oChild10)
 
 # 说明下面代码的输出结果
 
-# oRoot.print_all_1()
+print ("深度优先")
+oRoot.print_all_1()
+print("广度优先")
 oRoot.print_all_2()
+
+
+# 深度优先
+# <Node 'root'>
+# <Node 'child1'>
+# <Node 'child4'>
+# <Node 'child7'>
+# <Node 'child5'>
+# <Node 'child2'>
+# <Node 'child6'>
+# <Node 'child10'>
+# <Node 'child3'>
+# <Node 'child8'>
+# <Node 'child9'>
+# 广度优先
+# <Node 'root'>
+# <Node 'child1'>
+# <Node 'child2'>
+# <Node 'child3'>
+# <Node 'child4'>
+# <Node 'child5'>
+# <Node 'child6'>
+# <Node 'child8'>
+# <Node 'child9'>
+# <Node 'child7'>
+# <Node 'child10'>

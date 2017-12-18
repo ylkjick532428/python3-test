@@ -14,3 +14,5 @@ for i in range(len(ss)):
     else:
         pass
 print (result)
+
+# {10: 16, 37: 43, 23: 50, 58: 63, 9: 70}
